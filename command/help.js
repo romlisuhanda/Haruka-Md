@@ -30,8 +30,8 @@ exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerN
  • Downloads : ${download}
 
 *[ BOT INFO ]*
- • Creator : ${ownerName}
- • Bot Name : ${botName}
+ • Creator : Romli Suhanda and Ipul Fachri
+ • Bot Name : Mwgwty - MD
  • Time : ${jam}
  • Date : ${tanggal(new Date())}
  • Runtime : ${runtime(process.uptime())}
