@@ -25,7 +25,7 @@ let server = createServer(app)
 let _qr = 'invalid'
 let PORT = 3000 || 8000 || 8080
 
-//require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
+require("http").createServer((_, res) => res.end("Uptime!")).listen(8080)
 
 //libb
 const { TelegraPh } = require('./lib/uploader')
@@ -65,7 +65,7 @@ function title() {
         width: 80,
         whitespaceBreak: false
     })))
-    console.log(chalk.yellow(`\n${chalk.yellow('Created By Zeeone Ofc')}\n`))
+    console.log(chalk.yellow(`\n${chalk.yellow('Created By RR ')}\n`))
 }
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
